@@ -309,6 +309,10 @@ body {
     text-transform: capitalize;
 }
 
+.team img {
+    display: block;
+}
+
 .team-name {
     color: var(--NAVY-BLUE, #2e2f42);
     font-size: 20px;
