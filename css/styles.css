@@ -324,7 +324,11 @@ body {
 /*team-socials-icon*/
 .socials-items-links {
     background-color: var(--IRIS);
-    padding: 10px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     fill: var(--WHITE)
 }
