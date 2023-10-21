@@ -80,6 +80,7 @@ body {
 /*.about h3,
 .team h3*/
 
+/*team-name*/
 .about-team {
     color: var(--NAVY-BLUE, #2E2F42);
     /*text-align: center;*/
@@ -87,6 +88,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.4px;
+    margin-top: 0;
 }
 
 .container {
@@ -331,6 +333,12 @@ body {
     justify-content: center;
     border-radius: 50%;
     fill: var(--WHITE)
+}
+
+/*menu-caption*/
+.menu-team {
+    background-color: var(--WHITE);
+    padding: 32px 0ox;
 }
 
 /*FOOTER*/
