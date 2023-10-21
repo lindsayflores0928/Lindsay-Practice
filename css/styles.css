@@ -236,6 +236,13 @@ body {
     color: var(--NAVY-BLUE);
 }
 
+/*about-icon*/
+.menu-icons {
+    background-color: var(--CLOUD);
+    text-align: center;
+    padding: 24px 0;
+}
+
 .nav-link {
     color: var(--NAVY-BLUE);
     line-height: 1.5;
@@ -306,6 +313,20 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.4px;
+}
+
+/*team-socials*/
+.menu-team-socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*team-socials-icon*/
+.socials-items-links {
+    background-color: var(--IRIS);
+    padding: 10px;
+    border-radius: 50%;
+    fill: var(--WHITE)
 }
 
 /*FOOTER*/
