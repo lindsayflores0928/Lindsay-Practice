@@ -15,7 +15,7 @@ body {
 /*.list*/
 .menu {
     list-style: none;
-    padding-left: 0;
+    padding-left: 156;
     display: flex;
     justify-content: center;
     gap: 30px;
