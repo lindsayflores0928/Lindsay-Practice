@@ -99,7 +99,8 @@ body {
     display: flex;
 }
 
-.section {
+/*.section*/
+.about {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -116,8 +117,12 @@ body {
 
 /*HEADER*/
 
-*.header {
+.header {
     justify-content: space-around;
+    align-items: center;
+}
+
+.header .d-flex {
     align-items: center;
 }
 
@@ -232,12 +237,13 @@ body {
 /*team-socials*/
 .menu-team-socials {
     display: flex;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
 }
 
 /*team-socials-icon*/
 .socials-items-links {
     background-color: var(--IRIS);
+    gap: 24px;
     height: 40px;
     width: 40px;
     display: flex;
