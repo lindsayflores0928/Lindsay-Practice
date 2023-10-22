@@ -280,6 +280,10 @@ body {
     fill: var(--iris);
 }
 
+.customers-title {
+    align-items: center;
+}
+
 /*FOOTER*/
 
 .logo-studio-footer {
