@@ -299,6 +299,20 @@ body {
         padding-bottom: 100px;
 }
 
+/* PORTFOLIO STYLING */
+.projects ul {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.projects li {
+    width: 360px;
+}
+
+.projects li img {
+    width: 100%;
+}
+
 /*.logo {
     text-decoration: none;
     font-family: Raleway;
