@@ -345,6 +345,27 @@ body {
     padding: 32px 0ox;
 }
 
+/*CUSTOMERS*/
+
+.customer-icon {
+    border: 1px solid #8e8f99;
+    padding: 16px 32px;
+}
+
+.customer-icon svg {
+    fill: #8e8f99;
+}
+
+.customer-icon:hover,
+.customer-icon:focus {
+    border-color: var(--iris);
+}
+
+.customer-icon:hover svg,
+.customer-icon:focus svg {
+    fill: var(--iris);
+}
+
 /*FOOTER*/
 
 .logo-studio-footer {
