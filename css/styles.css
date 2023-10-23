@@ -225,6 +225,10 @@ body {
     text-transform: capitalize;
 }
 
+.menu-team {
+    width: 100%;
+    margin: 20px 0;
+}
 .team img {
     display: block;
 }
