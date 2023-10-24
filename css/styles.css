@@ -174,21 +174,7 @@ body {
     top: 15px;
 } 
 
-/*.active::after {
-    content: '';
-    display: block;
-    width: 48%;
-    height: 48px;
-    /* Adjust the thickness of the underline */
-    background-color: var(--NAVY-BLUE);
-    position: absolute;
-    bottom: -29px;
-    /* Adjust the offset position, e.g., 10px below the text */
-    left: 0;
-}*/
-
-
-.contacts {
+.link.contacts {
     color: var(--SLATE, #434455);
     line-height: 1.5;
     letter-spacing: 0.32px;
