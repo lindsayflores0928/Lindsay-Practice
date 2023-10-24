@@ -188,6 +188,9 @@ body {
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+    background: url(..//images/office.jpg);
+    background-size: cover;
+    background-color: rgba(46, 47, 66, 0.70);
 }
 
 .hero-text {
@@ -201,17 +204,12 @@ body {
 }
 
 .hero-btn {
-    background-color: var(--IRIS;
-}
-/*.hero-btn {
     background-color: var(--IRIS);
+    color: var(--WHITE);
     border: none;
     border-radius: 4px;
-    color: var(--WHITE);
     padding: 16px 32px;
-    width: 105px;
-    height: 24px;
-*/
+}
 
 /*.hero {
     width: 100%;
