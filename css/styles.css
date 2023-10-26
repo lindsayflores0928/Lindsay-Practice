@@ -238,7 +238,7 @@ body {
 }
 
 /*team-socials-icon*/
-.socials-items-links {
+/*.socials-items-links {
     background-color: var(--IRIS);
     height: 40px;
     width: 40px;
@@ -247,7 +247,7 @@ body {
     justify-content: center;
     border-radius: 50%;
     fill: var(--WHITE)
-}
+}*/
 
 /*menu-caption*/
 .menu-team {
@@ -388,6 +388,10 @@ body {
     align-items: center;
 }
 
+.socials-items-links {
+    fill: var(--WHITE)
+}
+
 /* Style for individual social media icons */
 .menu-team-socials {
     display: inline-block;
@@ -416,8 +420,7 @@ body {
     cursor: pointer;
 }
 
-.footer-social-text,
-.menu-team-socials {
+.footer-social-text {
     text-align: left;
 }
 
