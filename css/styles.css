@@ -37,7 +37,7 @@ body {
 }
 
 .logo .logo-web:hover {
-    color: var(--iris);
+    color: var(--IRIS);
 }
 
 .logo-web {
@@ -47,16 +47,6 @@ body {
 .link {
     text-decoration: none;
 }
-
-/*.section-title {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 2.5;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-    color: var(--NAVY-BLUE)
-}*/
 
 .section-title {
     color: var(--NAVY-BLUE, #2e2f42);
@@ -292,22 +282,78 @@ body {
 
 /*FOOTER*/
 
+/*SPAN*/
 .logo-studio-footer {
-    color: var(--CLOUD)
+    color: var(--CLOUD);
 }
 
 .footer {
-    padding: 120px;
+    padding: 100px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: var(--CLOUD);
+    font-family: Raleway;
+    font-weight: 800;
 }
 
 .footer-text {
     color: var(--CLOUD);
-    line-height: 1.5;
-    letter-spacing: 0.32px;
+    margin-top: 16px;
+}
+
+.footer-two {
+    margin-left: 120px;
+}
+
+.footer-sub {
+    margin-left: 80px;
+}
+
+.footer .socials-items-links {
+    margin-right: 10px;
+}
+
+.footer-social-text,
+.footer-subscribe-text {
+    margin-top: 0;
+    color: var(--WHITE);
+}
+
+.input-sub {
+    border: 2px solid white;
+    background: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 264px;
+    background-color: none;
+    margin-right: 24px;
+}
+
+.input-sub::placeholder {
+    color: white;
+}
+
+.btn-sub {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    padding: 8px 24px;
+    gap: 16px;
+    background-color: var(--iris);
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-sub svg {
+    fill: white;
 }
 
 .footer-main {
-    display: flex;
+    display: inline-flex;
     column-gap: 120px;
     align-items: center;
     padding-left: 156;
