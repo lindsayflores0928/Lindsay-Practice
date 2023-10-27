@@ -173,15 +173,13 @@ body {
 
 /*DIV UNDER UL*/
 .menu-icons {
-    /*background-color: var(--CLOUD);
-    text-align: center;
-    padding: 24px 0;*/
     width: 264px;
     height: 112px;
     padding: 24px 100px;
     margin-bottom: 8px;
     background-color: var(--CLOUD);
     border-radius: 4px;
+    text-align: center;
 }
 
 /*H3*/
@@ -420,29 +418,70 @@ body {
 /*END OF FOOTER-SOCIAL SECTION*/
 
 /*FOOTER-SUBSCRIBE SECTION*/
-.footer-email-form {
+.footer-sub {
+    margin-left: 80px;
+}
+
+.footer-subscribe-text {
+    color: white;
+    color: var(--CLOUD);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.input-sub {
+    border: 2px solid white;
+    background: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 264px;
+    background-color: none;
+    margin-right: 24px;
+}
+
+.input-sub::placeholder {
+    color: white;
+}
+
+.btn-sub {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    padding: 8px 24px;
+    gap: 16px;
+    background-color: var(--IRIS);
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-sub svg {
+    fill: white;
+}
+
+
+
+
+
+
+/*.footer-email-form {
     display: flex;
     gap: 24px;
     flex-shrink: 0;
-    width: 165px;
-    height: 40px;
+    width: 165px; 
 }
 
 .email-box {
     display: flex;
     width: 264px;
     height: 40px;
-    flex-shrink: 0;
     border-radius: 4px;
     background: var(--NAVY-BLUE);
     padding: 8px 16px;
-    border: 1px solid #fff;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: #fff;
+    border: 1px solid var(--WHITE)
+    color: var(--WHITE);
 }
 
 .email-box::placeholder {
-    color: #fff;
+    color: var(--WHITE);
     font-size: 12px;
     font-weight: 400;
     line-height: 1.5;
@@ -457,7 +496,6 @@ body {
     gap: 16px;
     text-align: center;
     width: 165px;
-    height: 40px;
     border-radius: 4px;
     background:var(--IRIS);
     color: #fff;
@@ -483,7 +521,7 @@ body {
     border-color: var(--IRIS);
     outline: 0;
     color: #fff;
-}
+}*/
 /*END OF FOOTER-SUBSCRIBE SECTION*/
 /*END OF FOOTER SECTION*/
 
