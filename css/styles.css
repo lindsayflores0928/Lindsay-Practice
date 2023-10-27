@@ -362,7 +362,129 @@ body {
 .customer-icon-a:hover,
 .customer-icon-a:focus {
     border-color: var(--OCEAN); 
-    color: var(--OCEAN);
+    fill: var(--iris);
+    color: var(--GREEN)
+}
+/*END OF CUSTOMERS SECTION*/
+
+/*FOOTER*/
+.bg-dark {
+    background-color: var(--NAVY-BLUE);
+    padding: 120px;
 }
 
-/*END OF CUSTOMERS SECTION*/
+.footer-main {
+    display: flex;
+    column-gap: 120px;
+    align-items: center;
+    padding-left: 156;
+}
+
+/*FOOTER-WEB SECTION*/
+.logo-studio-footer {
+    color: var(--CLOUD)
+}
+
+/*p tag*/
+.footer-text {
+    color: var(--CLOUD);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+/*END OF FOOTER-WEB SECTION*/
+
+/*FOOTER-SOCIAL SECTION*/
+.menu-team-socials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 16px;
+}
+
+/*a tag*/
+.socials-items-links {
+    background-color: var(--IRIS);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 50%;
+    fill: var(--WHITE);
+}
+
+.socials-items-links:hover,
+.socials-items-links:focus {
+    background-color: var(--GREEN);
+}
+/*END OF FOOTER-SOCIAL SECTION*/
+
+/*FOOTER-SUBSCRIBE SECTION*/
+.footer-email-form {
+    display: flex;
+    gap: 24px;
+    flex-shrink: 0;
+    width: 165px;
+    height: 40px;
+}
+
+.email-box {
+    display: flex;
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--NAVY-BLUE);
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #fff;
+}
+
+.email-box::placeholder {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.48px;
+}
+
+.subs-btn {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    background:var(--IRIS);
+    color: #fff;
+    fill: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    margin-top: 39px;
+    transition: var(--TRANSITION-DURATION);
+}
+
+.subs-btn-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.subs-btn:hover {
+    background-color: var(--OCEAN);
+}
+
+.email-box:focus {
+    border-color: var(--IRIS);
+    outline: 0;
+    color: #fff;
+}
+/*END OF FOOTER-SUBSCRIBE SECTION*/
+/*END OF FOOTER SECTION*/
+
+
