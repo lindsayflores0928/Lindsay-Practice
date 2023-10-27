@@ -390,7 +390,48 @@
             </div>
         </div>
     </footer>
-    <script src="./js/modal.js"></script>
+
+    <!--
+        <div id="modalOverlay" class="modal-overlay">
+        <div id="modalBox" class="modal-box">
+        <button id="closeModalBtn" class="close-button">xlink</button>
+        <!-- Add your content for the modal here -->
+        <!--
+        <p class="leave-contacts">Leave your contacts and we will call you back</p>
+        <form class="form" action="#" method="post">
+            <label class="form-label" for="name">Name</label>
+                <input type="text" name="name" id="name" required autofocus class="with-icon icon-name form-input" minlength="3">
+            
+            <label class="form-label" for="phone_number">Phone</label>
+                <input type="tel" name="phone_number" id="phone_number" required class="with-icon icon-phone form-input">
+            
+            <label class="form-label" for="user_email">Email</label>
+                <input type="email" name="email" id="user_email" required class="with-icon icon-email form-input" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}">
+        
+            <label class="form-label" for="comment">Comment</label>
+                <textarea name="comment" id="comment" placeholder="Text input" class="comment form-input"></textarea>
+        
+            <div class="terms-conditions">
+                <input type="checkbox" name="accept" id="accept" required>
+                <label for="accept">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
+            </div>
+        
+            <button type="submit" class="send">Send</button>
+        </form>
+        </div>
+    </div>-->
+    
+    <script src="modal.js"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const currentPage = "index";
+            const link = document.querySelector(`a[href="${currentPage}.html"]`);
+            if (link) {
+                link.classList.add("active");
+            }
+        });
+    </script>
 </body>
 
 </html>
