@@ -44,7 +44,7 @@
     <main>
         <section class="projects">
             <div class="projects-buttons-a">
-                <button id="all" class="projects-buttons">All</button>
+                <button id="all" class="projects-buttons active-p">All</button>
                 <button id="web" class="projects-buttons">Website</button>
                 <button id="app" class="projects-buttons">App</button>
                 <button id="design" class="projects-buttons">Design</button>
@@ -240,21 +240,26 @@
             <!--END OF FOOTER-SOCIAL SECTION-->
 
             <!--FOOTER-SUBSCRIBE SECTION--> 
-            <div class="footer-sub">
-                <p class="footer-subscribe-text">Subscribe</p>
-                <form>
-                    <input type="text" placeholder="Email" class="input-sub" />
-                    <button class="btn-sub">
-                        Subscribe
-                        <svg width="24" height="24">
+            <form action class="footer-email-form">
+                <div class="footer-subs-form">
+                    <h2 class="social-media-title">Subscribe</h2>
+                        <label class="footer-email">
+                            <input class="email-box" type="email" name="email" placeholder="E-mail" required>   
+                        </label>
+                </div>
+                
+                <div class="subs-btn-email">
+                    <button class="subs-btn" type="submit">Subscribe
+                        <svg class="subs-btn-icon">
                             <use href="./images/icons.svg#send"></use>
                         </svg>
                     </button>
-                </form>
-            </div>
-        </div>
+                </div>
+            </form>
             <!--END OF FOOTER-SUBSCRIBE SECTION--> 
+        </div>
     </footer>
+    <!--END OF FOOTER SECTION--> 
 
 </body>
 
