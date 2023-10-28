@@ -807,7 +807,7 @@ body {
 
 .user-input-box {
     display: block;
-    width: 100%;
+    width: 86%;
     height: 40px;
     font-family: "Roboto";
     transition: var(--TRANSITION-DURATION) cubic-bezier(0.4, 0, 0.2, 1);
@@ -835,7 +835,7 @@ body {
 .user-contact textarea {
     display: block;
     resize: vertical;
-    width: 100%;
+    width: 93%;
     margin-top: 4px;
     padding: 8px 16px;
     border-radius: 4px;
