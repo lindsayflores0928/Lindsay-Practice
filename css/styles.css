@@ -160,12 +160,10 @@ body {
 /*UL*/
 .about-menu {
     list-style: none;
-    padding-left: 180;
+    padding-left: 156;
     display: flex;
     justify-content: center;
     gap: 30px;
-    width: 1128px;
-    height: 224px;
 }
 
 .about {
@@ -203,15 +201,11 @@ body {
 /* END OF ABOUT SECTION*/
 
 /*WHAT WE DO SECTION*/
-.whatwedo-container {
-    padding: 0px 156px 120px 156px;
-    width: 1440px;
-}
-
 .what-we-do {
-    width: 1128px;
-    height: 412px;
+    padding-top: 120px;
     padding-bottom: 120px;
+    padding-left: 156;
+    padding-right: 156;
 }
 
 /*h2*/
@@ -241,12 +235,13 @@ body {
 
 /*TEAM SECTION*/
 .team {
-    background-color: var(--CLOUD);
-    width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
-    height: 780px;
-    padding-top: 120px;
+    gap: 24px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 /*h2*/
