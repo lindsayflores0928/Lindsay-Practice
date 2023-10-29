@@ -125,6 +125,10 @@ body {
     height: 600px;
 }
 
+.container {
+    margin-top: 150px;
+}
+
 /*h1*/
 .hero-text {
     font-size: 56px;
