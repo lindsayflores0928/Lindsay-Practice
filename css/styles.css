@@ -326,6 +326,8 @@ body {
     /*padding-left: 40px;
     margin-top: 0px;
     margin-bottom: 0px;*/
+    margin-bottom: 5px;
+    margin-top: 0px;
 }
 
 /*p tag*/
@@ -342,6 +344,9 @@ body {
     /*padding-left: 40px;
     padding-top: 8px;
     padding-bottom: 8px;*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
 }
 
 /*a tag*/
@@ -358,17 +363,7 @@ body {
 /*END OF TEAM SECTION*/
 
 /*CUSTOMERS SECTION*/
-.menu {
-    list-style: none;
-    padding-left: 156;
-    padding-right: 156;
-    width: 1128px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.customers {
+/*.customers {
     margin-top: 120px;
     margin-bottom: 120px;
     padding-left: 156px;
@@ -376,6 +371,14 @@ body {
     padding-bottom: 120px;
     width: 1128px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}*/
+
+.customers {
+    padding-bottom: 120px;
+    margin-top: 120px;
 }
 
 /*ul*/
@@ -427,6 +430,7 @@ body {
     background-color: var(--NAVY-BLUE);
     padding: 120px;
     width: 1440px;
+    height: 312px
 }
 
 .footer-main {
@@ -447,7 +451,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
     font-size: 16px;
-    margin-top: 17.5px;
 }
 /*END OF FOOTER-WEB SECTION*/
 
@@ -488,17 +491,18 @@ body {
 }
 
 .footer-email-form {
-    display: flex;
+    /*display: flex;*/
+    display: inline-flex;
     gap: 24px;
-    flex-shrink: 0;
+    /*flex-shrink: 0;
     width: 165px;
-    height: 40px;
+    height: 40px;*/
 }
 
 .email-box {
     display: flex;
     width: 264px;
-    height: 40px;
+    height: 20px;
     flex-shrink: 0;
     border-radius: 4px;
     background: var(--NAVY-BLUE);
@@ -519,12 +523,12 @@ body {
 .subs-btn {
     display: inline-flex;
     padding: 8px 24px;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     gap: 16px;
     text-align: center;
-    width: 165px;
-    height: 40px;
+    width: 170px;
+    height: 55x;
     border-radius: 4px;
     background:var(--IRIS);
     color: #fff;
@@ -533,7 +537,8 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    margin-top: 39px;
+    margin-top: 50px;
+    margin-right: 159px;
     transition: var(--TRANSITION-DURATION);
 }
 
@@ -571,6 +576,7 @@ body {
         justify-content: center;
         align-items: center;
         gap: 24px;
+        margin-left: 300px;
 }
 
 .projects-buttons {
